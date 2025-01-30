@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, OnDestroy, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-carousel',
@@ -7,21 +7,54 @@ import { Component, HostListener } from '@angular/core';
   templateUrl: './carousel.component.html',
   styleUrl: './carousel.component.scss'
 })
-export class CarouselComponent {
-  currentIndex = 2; // Default to the middle slide
-  touchStartX = 0; // Track touch start position
+export class CarouselComponent implements OnInit, OnDestroy {
+  currentIndex = 2;
+  touchStartX = 0;
+  private intervalId: ReturnType<typeof setInterval> | undefined;
 
-  // Function to go to the next slide
+  ngOnInit(): void {
+    this.startAutoSlide();
+  }
+
+  ngOnDestroy(): void {
+    this.stopAutoSlide();
+  }
+
   nextSlide() {
     this.currentIndex = (this.currentIndex + 1) % 5;
   }
 
-  // Function to go to the previous slide
+  manualNextSlide() {
+    this.stopAutoSlide();
+    this.nextSlide();
+  }
+
   prevSlide() {
     this.currentIndex = (this.currentIndex - 1 + 5) % 5;
   }
 
-  // Touch event handlers
+  manualPrevSlide() {
+    this.stopAutoSlide();
+    this.prevSlide();
+  }
+
+  startAutoSlide() {
+    this.intervalId = setInterval(() => {
+      this.nextSlide();
+    }, 4000);
+  }
+
+  stopAutoSlide() {
+    if(this.intervalId !== undefined) {
+      clearInterval(this.intervalId);
+      this.intervalId = undefined;
+    }
+  }
+
+  onSlideClick(index: number) {
+    this.stopAutoSlide();
+  }
+
   @HostListener('touchstart', ['$event'])
   onTouchStart(event: TouchEvent) {
     this.touchStartX = event.touches[0].clientX;

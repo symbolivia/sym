@@ -4,13 +4,13 @@
   <input type="radio" name="slider" id="s3" [checked]="currentIndex === 2">
   <input type="radio" name="slider" id="s4" [checked]="currentIndex === 3">
   <input type="radio" name="slider" id="s5" [checked]="currentIndex === 4">
-  <label for="s1" id="slide1" [ngClass]="{'active': currentIndex === 0}"></label>
-  <label for="s2" id="slide2" [ngClass]="{'active': currentIndex === 1}"></label>
-  <label for="s3" id="slide3" [ngClass]="{'active': currentIndex === 2}"></label>
-  <label for="s4" id="slide4" [ngClass]="{'active': currentIndex === 3}"></label>
-  <label for="s5" id="slide5" [ngClass]="{'active': currentIndex === 4}"></label>
+  <label for="s1" id="slide1" [ngClass]="{'active': currentIndex === 0}" (click)="onSlideClick(0)"></label>
+  <label for="s2" id="slide2" [ngClass]="{'active': currentIndex === 1}" (click)="onSlideClick(0)"></label>
+  <label for="s3" id="slide3" [ngClass]="{'active': currentIndex === 2}" (click)="onSlideClick(0)"></label>
+  <label for="s4" id="slide4" [ngClass]="{'active': currentIndex === 3}" (click)="onSlideClick(0)"></label>
+  <label for="s5" id="slide5" [ngClass]="{'active': currentIndex === 4}" (click)="onSlideClick(0)"></label>
 
   <!-- Navigation Buttons -->
-  <button id="prevButton" class="nav-button" (click)="prevSlide()">&#10094;</button>
-  <button id="nextButton" class="nav-button" (click)="nextSlide()">&#10095;</button>
+  <button id="prevButton" class="nav-button" (click)="manualPrevSlide()">&#10094;</button>
+  <button id="nextButton" class="nav-button" (click)="manualNextSlide()">&#10095;</button>
 </section>

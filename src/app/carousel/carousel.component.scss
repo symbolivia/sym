@@ -1,19 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  padding: 20px;
-  background: #eee;
-  user-select: none;
-}
 
 [type=radio] {
   display: none;
 }
 
 #slider {
+  padding-top: 10px;
   height: 35vw;
   position: relative;
   perspective: 1000px;
@@ -128,21 +119,21 @@ body {
 /* Media query for smaller screens */
 @media (max-width: 768px) {
   #slider {
-    height: 50vw; /* Increase height for better visibility on mobile */
+    height: 50vw;
   }
 
   #slider label {
-    width: 80%; /* Wider slides for smaller screens */
+    width: 80%;
   }
 }
 
 /* Media query for very small screens */
 @media (max-width: 480px) {
   #slider {
-    height: 70vw; /* Even taller for very small screens */
+    height: 70vw;
   }
 
   #slider label {
-    width: 90%; /* Almost full width for very small screens */
+    width: 90%;
   }
 }
