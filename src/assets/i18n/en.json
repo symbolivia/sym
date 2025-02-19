@@ -3,5 +3,16 @@
     "ABOUT": "About",
     "PRODUCTS": "Products",
     "CONTACT": "Contact"
+  },
+  "CONTACT_PAGE": {
+    "TITLE": "Send us a message",
+    "NAME": "Name",
+    "LAST_NAME": "Last Name",
+    "PHONE": "Phone",
+    "EMAIL": "Email",
+    "Comments": "Comments"
+  },
+  "FOOTER": {
+    "DOWNLOAD_CATALOG": "DOWNLOAD CATALOG"
   }
 }

@@ -3,5 +3,16 @@
     "ABOUT": "Acerca de nosotros",
     "PRODUCTS": "Nuestros productos",
     "CONTACT": "Contactanos"
+  },
+  "CONTACT_PAGE": {
+    "TITLE": "Envianos un mensaje",
+    "NAME": "Nombre",
+    "LAST_NAME": "Apellido",
+    "PHONE": "Telefono",
+    "EMAIL": "Correo electronico",
+    "COMMENTS": "Comentarios"
+  },
+  "FOOTER": {
+    "DOWNLOAD_CATALOG": "DESCARGAR CATÁLOGO"
   }
 }

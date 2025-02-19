@@ -2,7 +2,6 @@
 
 .navbar-container {
   font-size: 12pt;
-  font-family:'Courier New', Courier, monospace;
 }
 
 nav {
@@ -22,24 +21,48 @@ nav {
 }
 
 nav a {
+  position: relative;
   height: 100%;
   padding: 0 20px;
   display: flex;
   align-items: center;
   text-decoration: none;
   color: colors.$light-color;
+  transition: color 0.4s ease-in-out;
+  &:not(.home-link) {
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 5px;
+      left: 50%;
+      width: 0;
+      height: 2px;
+      background-color: colors.$secondary-color;
+      transition: width 0.5s ease-in-out, transform 0.5s ease-in-out;
+      transform: translateX(-50%);
+    }
+
+    &:hover {
+      color: colors.$secondary-color;
+      background-color: #F2F2F2;
+      transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+
+      &::after {
+        width: 60%;
+      }
+    }
+  }
 }
 
-nav a:hover {
-  background-color: colors.$secondary-color;
-}
+
+// nav a:hover {
+//   color: colors.$secondary-color;
+//   background-color: colors.$light-color;
+//   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+// }
 
 nav .home-link {
   margin-right: auto;
-}
-
-nav svg {
-  fill: colors.$light-color;
 }
 
 #sidebar-active {
@@ -72,6 +95,14 @@ nav svg {
     width: 100%;
     padding: 20px 30px;
     justify-content: flex-start;
+  }
+
+  .open-sidebar-button {
+    background: url('../../assets/icons/menu_icon.svg') no-repeat center;
+  }
+
+  .close-sidebar-button {
+    background: url('../../assets/icons/close_icon.svg') no-repeat center;
   }
 
   .open-sidebar-button, .close-sidebar-button {

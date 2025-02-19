@@ -1,0 +1,40 @@
+@use 'colors' as colors;
+
+.anchor {
+  text-decoration: none;
+  color: colors.$light-color;
+  display: inline-block;
+  border-radius: 50px;
+  border: 2px solid  colors.$info-color;
+  padding: 10px 30px 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.anchor:hover {
+  color: colors.$info-color;
+}
+
+.button a::before {
+  position: absolute;
+  content: "";
+  z-index: 0;
+  background-color: colors.$info-color;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  height: 116%;
+  transition: all .3s ease;
+}
+
+.button a:hover::before {
+  height: 11%;
+}
+
+.button span {
+  position: relative;
+  z-index: 2;
+  transition: all .3s ease;
+  font-size: small;
+  font-weight: 200;
+}

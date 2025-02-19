@@ -1,1 +1,67 @@
-<p>contact works!</p>
+<form class="contact-form">
+  <h2 class="contact-title">{{ "CONTACT_PAGE.TITLE" | translate }}</h2>
+  <div (ngSubmit)="onSubmit()" class="contact-container">
+    <div class="inputs-container">
+      <div class="input-group">
+        <input
+          [(ngModel)]="contact.name"
+          required
+          type="text"
+          name="firstName"
+          autocomplete="off"
+          class="input"
+        />
+        <label class="user-label">{{ "CONTACT_PAGE.NAME" | translate }}</label>
+      </div>
+      <div class="input-group">
+        <input
+          [(ngModel)]="contact.lastName"
+          required
+          type="text"
+          name="lastName"
+          autocomplete="off"
+          class="input"
+        />
+        <label class="user-label">{{
+          "CONTACT_PAGE.LAST_NAME" | translate
+        }}</label>
+      </div>
+      <div class="input-group">
+        <input
+          [(ngModel)]="contact.phone"
+          required
+          type="text"
+          name="phone"
+          autocomplete="off"
+          class="input"
+        />
+        <label class="user-label">{{ "CONTACT_PAGE.PHONE" | translate }}</label>
+      </div>
+      <div class="input-group">
+        <input
+          [(ngModel)]="contact.email"
+          required
+          type="text"
+          name="email"
+          autocomplete="off"
+          class="input"
+        />
+        <label class="user-label">{{ "CONTACT_PAGE.EMAIL" | translate }}</label>
+      </div>
+    </div>
+    <div class="textarea-container">
+      <div class="input-group">
+        <textarea
+          [(ngModel)]="contact.comments"
+          required
+          name="comments"
+          autocomplete="off"
+          class="input textarea"
+        ></textarea>
+        <label class="user-label">{{
+          "CONTACT_PAGE.COMMENTS" | translate
+        }}</label>
+      </div>
+    </div>
+  </div>
+</form>

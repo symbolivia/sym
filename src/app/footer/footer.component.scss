@@ -1,0 +1,53 @@
+@use 'colors' as colors;
+
+.footer {
+  background-color: colors.$dark-color;
+  color: colors.$light-color;
+  text-align: center;
+  padding: 15px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icon {
+  color: colors.$light-color;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s;
+}
+
+.facebook-icon, .instagram-icon, .whatsapp-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 30%;
+}
+
+.facebook-icon {
+  background: url('../../assets/icons/facebook_icon.svg') no-repeat center;
+}
+
+.instagram-icon {
+  background: url('../../assets/icons/instagram_icon.svg') no-repeat center;
+}
+
+.whatsapp-icon {
+  border-radius: 50%;
+  background: url('../../assets/icons/whatsapp_icon.svg') no-repeat center;
+}
+
+.icon:hover {
+  color: #ffcc00;
+}
+
+@media (max-width: 768px) {
+  .icon span {
+    display: none;
+  }
+}
