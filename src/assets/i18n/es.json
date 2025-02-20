@@ -10,7 +10,8 @@
     "LAST_NAME": "Apellido",
     "PHONE": "Telefono",
     "EMAIL": "Correo electronico",
-    "COMMENTS": "Comentarios"
+    "COMMENTS": "Comentarios",
+    "SEND": "Enviar"
   },
   "FOOTER": {
     "DOWNLOAD_CATALOG": "DESCARGAR CATÁLOGO"

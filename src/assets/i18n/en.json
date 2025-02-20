@@ -10,7 +10,8 @@
     "LAST_NAME": "Last Name",
     "PHONE": "Phone",
     "EMAIL": "Email",
-    "Comments": "Comments"
+    "COMMENTS": "Comments",
+    "SEND": "Send"
   },
   "FOOTER": {
     "DOWNLOAD_CATALOG": "DOWNLOAD CATALOG"
