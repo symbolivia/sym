@@ -66,6 +66,11 @@
     padding: 0 0.2em;
     color: colors.$info-color;
   }
+
+  &.ng-invalid.ng-touched {
+    border: 1.5px solid colors.$danger-color !important;
+    box-shadow: 0px 0px 5px rgba(255, 0, 0, 0.5);
+  }
 }
 
 .user-label {
@@ -81,6 +86,13 @@
   display: flex;
   justify-content: flex-end;
   margin-right: 10px;
+}
+
+.error-message {
+  color: colors.$danger-color;
+  font-size: 0.6rem;
+  padding: 5px 0px 0px 10px;
+  display: block;
 }
 
 .button-container {

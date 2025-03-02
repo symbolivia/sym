@@ -6,12 +6,22 @@
   },
   "CONTACT_PAGE": {
     "TITLE": "Envianos un mensaje",
-    "NAME": "Nombre",
-    "LAST_NAME": "Apellido",
+    "NAME": "*Nombre",
+    "LAST_NAME": "*Apellido",
     "PHONE": "Telefono",
-    "EMAIL": "Correo electronico",
+    "EMAIL": "*Correo electronico",
     "COMMENTS": "Comentarios",
-    "SEND": "Enviar"
+    "SEND": "Enviar",
+    "ERROR": {
+      "NAME_REQUIRED": "El nombre es requerido",
+      "LAST_NAME_REQUIRED": "El apellido es requerido",
+      "PHONE_REQUIRED": "El teléfono es requerido",
+      "EMAIL_REQUIRED": "El correo electrónico es requerido",
+      "EMAIL_INVALID": "El correo electrónico no es válido",
+      "COMMENTS_REQUIRED": "Los comentarios son requeridos",
+      "NAME_MIN_LENGTH": "El nombre debe tener al menos 3 caracteres",
+      "LAST_NAME_MIN_LENGTH": "El apellido debe tener al menos 3 caracteres"
+    }
   },
   "FOOTER": {
     "DOWNLOAD_CATALOG": "DESCARGAR CATÁLOGO"

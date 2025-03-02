@@ -1,10 +1,10 @@
-<form class="contact-form">
+<form [formGroup]="contactForm" class="contact-form" (submit)="onSubmit()">
   <h2 class="contact-title">{{ "CONTACT_PAGE.TITLE" | translate }}</h2>
-  <div (ngSubmit)="onSubmit()" class="contact-container">
+  <div class="contact-container">
     <div>
       <div class="input-group">
         <input
-          [(ngModel)]="contact.name"
+          formControlName="name"
           required
           type="text"
           name="firstName"
@@ -12,23 +12,49 @@
           class="input"
         />
         <label class="user-label">{{ "CONTACT_PAGE.NAME" | translate }}</label>
+        <div
+          *ngIf="
+            contactForm.controls['name'].invalid &&
+            contactForm.controls['name'].touched
+          "
+        >
+          <small *ngIf="contactForm.controls['name'].errors?.['required']" class="error-message">
+            {{ "CONTACT_PAGE.ERROR.NAME_REQUIRED" | translate }}
+          </small>
+          <small *ngIf="contactForm.controls['name'].errors?.['minlength']" class="error-message">
+            {{ "CONTACT_PAGE.ERROR.NAME_MIN_LENGTH" | translate }}
+          </small>
+        </div>
       </div>
       <div class="input-group">
         <input
-          [(ngModel)]="contact.lastName"
+          formControlName="lastName"
           required
           type="text"
           name="lastName"
           autocomplete="off"
           class="input"
         />
-        <label class="user-label">{{
-          "CONTACT_PAGE.LAST_NAME" | translate
-        }}</label>
+        <label class="user-label">
+          {{ "CONTACT_PAGE.LAST_NAME" | translate }}
+        </label>
+        <div
+          *ngIf="
+            contactForm.controls['lastName'].invalid &&
+            contactForm.controls['lastName'].touched
+          "
+        >
+          <small *ngIf="contactForm.controls['lastName'].errors?.['required']" class="error-message">
+            {{ "CONTACT_PAGE.ERROR.LAST_NAME_REQUIRED" | translate }}
+          </small>
+          <small *ngIf="contactForm.controls['lastName'].errors?.['minlength']" class="error-message">
+            {{ "CONTACT_PAGE.ERROR.LAST_NAME_MIN_LENGTH" | translate }}
+          </small>
+        </div>
       </div>
       <div class="input-group">
         <input
-          [(ngModel)]="contact.phone"
+          formControlName="phone"
           required
           type="text"
           name="phone"
@@ -39,7 +65,7 @@
       </div>
       <div class="input-group">
         <input
-          [(ngModel)]="contact.email"
+          formControlName="email"
           required
           type="text"
           name="email"
@@ -47,12 +73,25 @@
           class="input"
         />
         <label class="user-label">{{ "CONTACT_PAGE.EMAIL" | translate }}</label>
+        <div
+          *ngIf="
+            contactForm.controls['email'].invalid &&
+            contactForm.controls['email'].touched
+          "
+        >
+          <small *ngIf="contactForm.controls['email'].errors?.['required']" class="error-message">
+            {{ "CONTACT_PAGE.ERROR.EMAIL_REQUIRED" | translate }}
+          </small>
+          <small *ngIf="contactForm.controls['email'].errors?.['email']" class="error-message">
+            {{ "CONTACT_PAGE.ERROR.EMAIL_INVALID" | translate }}
+          </small>
+        </div>
       </div>
     </div>
     <div>
       <div class="input-group">
         <textarea
-          [(ngModel)]="contact.comments"
+          formControlName="comments"
           required
           name="comments"
           autocomplete="off"
@@ -63,10 +102,9 @@
         }}</label>
       </div>
       <div class="button-wrapper">
-        <Button class="button-container">
+        <Button class="button-container" type="submit">
           <span class="button-text">{{ "CONTACT_PAGE.SEND" | translate }}</span>
           <i class="send-icon"></i>
-          <!-- <mat-icon class="button-icon">send</mat-icon> -->
         </Button>
       </div>
     </div>

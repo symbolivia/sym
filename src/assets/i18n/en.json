@@ -6,12 +6,21 @@
   },
   "CONTACT_PAGE": {
     "TITLE": "Send us a message",
-    "NAME": "Name",
-    "LAST_NAME": "Last Name",
+    "NAME": "*Name",
+    "LAST_NAME": "*Last Name",
     "PHONE": "Phone",
-    "EMAIL": "Email",
+    "EMAIL": "*Email",
     "COMMENTS": "Comments",
-    "SEND": "Send"
+    "SEND": "Send",
+    "ERROR": {
+      "NAME_REQUIRED": "Name is required",
+      "LAST_NAME_REQUIRED": "Last Name is required",
+      "EMAIL_REQUIRED": "Email is required",
+      "EMAIL_INVALID": "Email is invalid",
+      "COMMENTS_REQUIRED": "Comments is required",
+      "NAME_MIN_LENGTH": "Name must be at least 3 characters",
+      "LAST_NAME_MIN_LENGTH": "Last Name must be at least 3 characters"
+    }
   },
   "FOOTER": {
     "DOWNLOAD_CATALOG": "DOWNLOAD CATALOG"
