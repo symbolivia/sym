@@ -22,6 +22,10 @@
       "LAST_NAME_MIN_LENGTH": "Last Name must be at least 3 characters"
     }
   },
+  "ABOUT_PAGE": {
+    "TITLE": "About Us",
+    "CONTENT": "We are a Bolivian company specializing in the sublimation of mugs, caps, t-shirts, and other personalized items, offering high-quality products with exclusive designs for companies, events, and personal use. We have state-of-the-art printing technology to ensure sharp and durable finishes. Our main headquarters is located in the city of Cochabamba, from where we operate to provide efficient and quality service. We ship to all departments of Bolivia and offer home deliveries for the convenience of our customers. We focus on customer satisfaction, ensuring personalized attention and compliance with delivery times. Our commitment is to offer innovative products, ideal for gifts, advertising campaigns, and promotional items, turning each design into a unique and memorable expression.<br><br>📲 Follow us on our social media to know our news, promotions, and new designs:<br>🔹 Instagram<br>🔹 Facebook<br>🔹 WhatsApp<br><br>Contact us and personalize your products with us! 🎨🔥"
+  },
   "FOOTER": {
     "DOWNLOAD_CATALOG": "DOWNLOAD CATALOG"
   }

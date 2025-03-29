@@ -16,15 +16,17 @@ export class ContactComponent {
     this.contactForm = this.fb.group({
       name: ['', [Validators.required, Validators.minLength(3)]],
       lastName: ['', [Validators.required, Validators.minLength(3)]],
-      phone: ['', [Validators.required, Validators.pattern('^[0-9]{10}$')]],
+      phone: [''],
       email: ['', [Validators.required, Validators.email]],
-      comments: ['', [Validators.required, Validators.minLength(10)]]
+      comments: ['']
     });
   }
 
   onSubmit() {
     if (this.contactForm.valid) {
       console.log("Form Data:", this.contactForm.value);
+      const message = `Hola soy ${this.contactForm.value["name"]} ${this.contactForm.value["lastName"]}, mi correo es ${this.contactForm.value["email"]}, mi telefono es ${this.contactForm.value["phone"]} y tengo una consulta: ${this.contactForm.value["comments"]}`;
+      window.open(`https://wa.me/59175989562?text=${message}`);
     } else {
       console.log("Form is invalid");
     }
