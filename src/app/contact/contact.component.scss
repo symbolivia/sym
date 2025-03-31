@@ -1,5 +1,11 @@
 @use "colors" as colors;
 
+.contact-form-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
