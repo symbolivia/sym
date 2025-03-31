@@ -1,12 +1,17 @@
 import { Component } from '@angular/core';
-import { AnimatedButtonComponent } from "../animated-button/animated-button.component";
+import { ButtonComponent } from '../button/button.component';
 
 @Component({
   selector: 'app-footer',
-  imports: [AnimatedButtonComponent],
+  imports: [ButtonComponent],
   templateUrl: './footer.component.html',
-  styleUrl: './footer.component.scss'
+  styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent {
-
+  downloadCatalog() {
+    const link = document.createElement('a');
+    link.href = '../../assets/images/catalog.pdf'; 
+    link.download = 'catalog.pdf';
+    link.click();
+  }
 }
