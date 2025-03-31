@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "dkasa": {
+    "sym": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/dkasa",
+            "outputPath": "dist/sym",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -63,10 +63,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "dkasa:build:production"
+              "buildTarget": "sym:build:production"
             },
             "development": {
-              "buildTarget": "dkasa:build:development"
+              "buildTarget": "sym:build:development"
             }
           },
           "defaultConfiguration": "development"
