@@ -1,3 +1,5 @@
+@use 'colors' as colors;
+
 .about-container {
   display: flex;
   justify-content: center;
@@ -5,7 +7,7 @@
 }
 
 .about-card {
-  background: white;
+  background: colors.$light-color;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   padding: 2rem;
@@ -14,12 +16,12 @@
 }
 
 h1 {
-  color: #333;
+  color: colors.$dark-color;
   margin-bottom: 1.5rem;
 }
 
 .about-content {
-  color: #666;
+  color: colors.$secondary-color;
   line-height: 1.6;
   font-size: 1.1rem;
 }

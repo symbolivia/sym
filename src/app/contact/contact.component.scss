@@ -8,7 +8,7 @@
   margin: 0 auto;
   padding: 2rem;
   width: 100%;
-  background-color: colors.$background-page;
+  background-color: colors.$light-color;
   border-radius: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   max-width: 500px;
@@ -62,7 +62,7 @@
   &:focus ~ .user-label,
   &:valid ~ .user-label {
     transform: translateY(-50%) scale(0.8);
-    background-color: colors.$background-page;
+    background-color: colors.$light-color;
     padding: 0 0.2em;
     color: colors.$info-color;
   }
@@ -97,7 +97,7 @@
 
 .button-container {
   background-color: colors.$info-color;
-  color: colors.$background-page;
+  color: colors.$light-color;
   font-size: 1rem;
   font-weight: bold;
   padding: 0.4rem 1rem 0.4rem 1.5rem;
