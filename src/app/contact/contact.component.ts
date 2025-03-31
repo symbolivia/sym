@@ -2,10 +2,11 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { TranslateModule } from '@ngx-translate/core';
+import { ButtonComponent } from '../button/button.component';
 
 @Component({
   selector: 'app-contact',
-  imports: [FormsModule, TranslateModule, ReactiveFormsModule, CommonModule],
+  imports: [FormsModule, TranslateModule, ReactiveFormsModule, CommonModule, ButtonComponent],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss',
 })
