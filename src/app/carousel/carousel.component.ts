@@ -51,7 +51,7 @@ export class CarouselComponent implements OnInit, OnDestroy {
     }
   }
 
-  onSlideClick(index: number) {
+  onSlideClick() {
     this.stopAutoSlide();
   }
 

@@ -1,4 +1,6 @@
 
+@use 'colors' as colors;
+
 [type=radio] {
   display: none;
 }
@@ -69,7 +71,16 @@
 }
 
 #slide1 {
-  background: #00BCD4;
+  background-image: url('../../assets/images/carousel/nails.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 4px;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 
 #slide2 {
@@ -88,12 +99,11 @@
   background: #FF5722;
 }
 
-/* Navigation Buttons */
 .nav-button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: colors.$secondary-color;
   color: white;
   border: none;
   padding: 10px;
@@ -101,10 +111,16 @@
   font-size: 24px;
   z-index: 10;
   transition: background-color 0.3s ease;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav-button:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: colors.$warning-color;
 }
 
 #prevButton {
