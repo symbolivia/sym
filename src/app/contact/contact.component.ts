@@ -27,7 +27,7 @@ export class ContactComponent {
     if (this.contactForm.valid) {
       console.log("Form Data:", this.contactForm.value);
       const message = `Hola soy ${this.contactForm.value["name"]} ${this.contactForm.value["lastName"]}, mi correo es ${this.contactForm.value["email"]}, mi telefono es ${this.contactForm.value["phone"]} y tengo una consulta: ${this.contactForm.value["comments"]}`;
-      window.open(`https://wa.me/59175989562?text=${message}`);
+      window.open(`https://wa.me/59177485572?text=${message}`);
     } else {
       console.log("Form is invalid");
     }
