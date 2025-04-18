@@ -25,3 +25,39 @@ h1 {
   line-height: 1.6;
   font-size: 1.1rem;
 }
+
+.icon {
+  color: colors.$secondary-color;
+  text-decoration: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s;
+  margin-bottom: 10px;
+}
+
+.facebook-icon, .instagram-icon, .whatsapp-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 30%;
+}
+
+.facebook-icon {
+  background: url('../../assets/icons/facebook_icon.svg') no-repeat center;
+}
+
+.instagram-icon {
+  background: url('../../assets/icons/instagram_icon.svg') no-repeat center;
+}
+
+.whatsapp-icon {
+  border-radius: 50%;
+  background: url('../../assets/icons/whatsapp_icon.svg') no-repeat center;
+}
+
+@media (min-width: 768px) {
+  .icon:hover {
+    color: #ffcc00;
+  }
+}
