@@ -28,5 +28,37 @@
   },
   "FOOTER": {
     "DOWNLOAD_CATALOG": "Download Catalog"
+  },
+  "PRODUCTS": {
+    "PRODUCT_0": { "NAME": "Super Mario Bros", "DESCRIPTION": "this is a cup of mario bros" },
+    "PRODUCT_1": { "NAME": "Kid's Day", "DESCRIPTION": "Kid's Day" },
+    "PRODUCT_2": { "NAME": "Penguin", "DESCRIPTION": "Penguin" },
+    "PRODUCT_3": { "NAME": "Coffee", "DESCRIPTION": "Coffee" },
+    "PRODUCT_4": { "NAME": "Happy Mother's Day", "DESCRIPTION": "Happy Mother's Day" },
+    "PRODUCT_5": { "NAME": "Happy Birthday", "DESCRIPTION": "Happy Birthday" },
+    "PRODUCT_6": { "NAME": "Harry Potter", "DESCRIPTION": "Harry Potter" },
+    "PRODUCT_7": { "NAME": "Shrek", "DESCRIPTION": "Shrek" },
+    "PRODUCT_8": { "NAME": "Pinky", "DESCRIPTION": "Pinky" },
+    "PRODUCT_9": { "NAME": "Totoro", "DESCRIPTION": "Totoro" },
+    "PRODUCT_10": { "NAME": "Bolivia", "DESCRIPTION": "Bolivia" },
+    "PRODUCT_11": { "NAME": "Panda", "DESCRIPTION": "Panda" },
+    "PRODUCT_12": { "NAME": "Pandas", "DESCRIPTION": "Pandas" },
+    "PRODUCT_13": { "NAME": "Beer", "DESCRIPTION": "Beer" },
+    "PRODUCT_14": { "NAME": "Coca Cola", "DESCRIPTION": "Coca Cola" },
+    "PRODUCT_15": { "NAME": "One Piece", "DESCRIPTION": "One Piece" },
+    "PRODUCT_16": { "NAME": "Roblox", "DESCRIPTION": "Roblox" },
+    "PRODUCT_17": { "NAME": "Free Fire", "DESCRIPTION": "Free Fire" },
+    "PRODUCT_18": { "NAME": "Real Madrid", "DESCRIPTION": "Real Madrid" },
+    "PRODUCT_19": { "NAME": "Barcelona", "DESCRIPTION": "Barcelona" },
+    "PRODUCT_20": { "NAME": "Amazon", "DESCRIPTION": "Amazon" },
+    "PRODUCT_21": { "NAME": "Cat", "DESCRIPTION": "Cat" },
+    "PRODUCT_22": { "NAME": "Dog", "DESCRIPTION": "Dog" },
+    "PRODUCT_23": { "NAME": "Snowman", "DESCRIPTION": "Snowman" },
+    "PRODUCT_24": { "NAME": "Cat Face", "DESCRIPTION": "Cat Face" },
+    "PRODUCT_25": { "NAME": "BTS Kawaii", "DESCRIPTION": "BTS Kawaii" },
+    "PRODUCT_26": { "NAME": "BTS", "DESCRIPTION": "BTS" },
+    "PRODUCT_27": { "NAME": "The Simpsons", "DESCRIPTION": "The Simpsons" },
+    "PRODUCT_28": { "NAME": "Avengers", "DESCRIPTION": "Avengers" },
+    "PRODUCT_29": { "NAME": "Teacher", "DESCRIPTION": "Teacher" }
   }
 }

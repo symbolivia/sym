@@ -25,9 +25,41 @@
   },
   "ABOUT_PAGE": {
     "TITLE": "Acerca de nosotros",
-    "CONTENT": "SYM es una empresa boliviana especializada en la sublimación de tazas, gorras, poleras y otros artículos personalizados, ofreciendo productos de alta calidad con diseños exclusivos para empresas, eventos y uso personal. Contamos con tecnología de impresión de última generación para garantizar acabados nítidos y duraderos. Nuestra sede principal se encuentra en la ciudad de Cochabamba, desde donde operamos para brindar un servicio eficiente y de calidad. Realizamos envíos a todos los departamentos de Bolivia y ofrecemos entregas a domicilio para mayor comodidad de nuestros clientes. Nos enfocamos en la satisfacción del cliente, asegurando atención personalizada y cumplimiento en los tiempos de entrega. Nuestro compromiso es ofrecer productos innovadores, ideales para regalos, campañas publicitarias y artículos promocionales, convirtiendo cada diseño en una expresión única y memorable.<br><br>📲 Síguenos en nuestras redes sociales para conocer nuestras novedades, promociones y nuevos diseños:"
+    "CONTENT": "SYM es una empresa boliviana especializada en la sublimación de tazas, gorras, poleras y otros artículos personalizados, ofreciendo productos de alta calidad con diseños exclusivos para empresas, eventos y uso personal. Contamos con tecnología de impresión de última generación para garantizar acabados nítidos y duraderos. Nuestra sede principal se encuentra en la ciudad de Cochabamba, desde donde operamos para brindar un servicio eficiente y de calidad. Realizamos envíos a todos los departamentos de Bolivia y ofrecemos entregas a domicilio para mayor comodidad de nuestros clientes. Nos enfocamos en la satisfacción del cliente, asegurando atención personalizada y cumplimiento en los tiempos de entrega. Nuestro compromiso es ofrecer productos innovadores, ideales para regalos, campañas publicitarias y artículos promocionales, convirtiendo cada diseño en una expresión única y memorable.<br><br> Síguenos en nuestras redes sociales para conocer nuestras novedades, promociones y nuevos diseños:"
   },
   "FOOTER": {
     "DOWNLOAD_CATALOG": "Descargar Catálogo"
+  },
+  "PRODUCTS": {
+    "PRODUCT_0": { "NAME": "Super Mario Bros", "DESCRIPTION": "Esta es una taza de Mario Bros" },
+    "PRODUCT_1": { "NAME": "Día del niño", "DESCRIPTION": "Día del niño" },
+    "PRODUCT_2": { "NAME": "Pingüino", "DESCRIPTION": "Pingüino" },
+    "PRODUCT_3": { "NAME": "Café", "DESCRIPTION": "Café" },
+    "PRODUCT_4": { "NAME": "Feliz día mamá", "DESCRIPTION": "Feliz día mamá" },
+    "PRODUCT_5": { "NAME": "Feliz cumpleaños", "DESCRIPTION": "Feliz cumpleaños" },
+    "PRODUCT_6": { "NAME": "Harry Potter", "DESCRIPTION": "Harry Potter" },
+    "PRODUCT_7": { "NAME": "Shrek", "DESCRIPTION": "Shrek" },
+    "PRODUCT_8": { "NAME": "Pinky", "DESCRIPTION": "Pinky" },
+    "PRODUCT_9": { "NAME": "Totoro", "DESCRIPTION": "Totoro" },
+    "PRODUCT_10": { "NAME": "Bolivia", "DESCRIPTION": "Bolivia" },
+    "PRODUCT_11": { "NAME": "Panda", "DESCRIPTION": "Panda" },
+    "PRODUCT_12": { "NAME": "Pandas", "DESCRIPTION": "Pandas" },
+    "PRODUCT_13": { "NAME": "Cerveza", "DESCRIPTION": "Cerveza" },
+    "PRODUCT_14": { "NAME": "Coca Cola", "DESCRIPTION": "Coca Cola" },
+    "PRODUCT_15": { "NAME": "One Piece", "DESCRIPTION": "One Piece" },
+    "PRODUCT_16": { "NAME": "Roblox", "DESCRIPTION": "Roblox" },
+    "PRODUCT_17": { "NAME": "Free Fire", "DESCRIPTION": "Free Fire" },
+    "PRODUCT_18": { "NAME": "Real Madrid", "DESCRIPTION": "Real Madrid" },
+    "PRODUCT_19": { "NAME": "Barcelona", "DESCRIPTION": "Barcelona" },
+    "PRODUCT_20": { "NAME": "Amazon", "DESCRIPTION": "Amazon" },
+    "PRODUCT_21": { "NAME": "Gato", "DESCRIPTION": "Gato" },
+    "PRODUCT_22": { "NAME": "Perro", "DESCRIPTION": "Perro" },
+    "PRODUCT_23": { "NAME": "Hombre de nieve", "DESCRIPTION": "Hombre de nieve" },
+    "PRODUCT_24": { "NAME": "Cara de gato", "DESCRIPTION": "Cara de gato" },
+    "PRODUCT_25": { "NAME": "BTS kawaii", "DESCRIPTION": "BTS kawaii" },
+    "PRODUCT_26": { "NAME": "BTS", "DESCRIPTION": "BTS" },
+    "PRODUCT_27": { "NAME": "Los Simpsons", "DESCRIPTION": "Los Simpsons" },
+    "PRODUCT_28": { "NAME": "Los Vengadores", "DESCRIPTION": "Los Vengadores" },
+    "PRODUCT_29": { "NAME": "Maestro", "DESCRIPTION": "Maestro" }
   }
 }
