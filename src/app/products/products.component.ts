@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { ProductCardComponent } from '../product-card/product-card.component';
+import { PRODUCTS } from './products.data';
 
 @Component({
   selector: 'app-products',
@@ -9,36 +10,6 @@ import { ProductCardComponent } from '../product-card/product-card.component';
   styleUrls: ['./products.component.scss']
 })
 export class ProductsComponent {
-  products = [
-    { name: 'PRODUCTS.PRODUCT_0.NAME', description: 'PRODUCTS.PRODUCT_0.DESCRIPTION', price: 10, imageUrl: 'assets/images/products/mario.jpg' },
-    { name: 'PRODUCTS.PRODUCT_1.NAME', description: 'PRODUCTS.PRODUCT_1.DESCRIPTION', price: 20, imageUrl: 'assets/images/products/kid-day.jpg' },
-    { name: 'PRODUCTS.PRODUCT_2.NAME', description: 'PRODUCTS.PRODUCT_2.DESCRIPTION', price: 30, imageUrl: 'assets/images/products/kawai-penguin.jpg' },
-    { name: 'PRODUCTS.PRODUCT_3.NAME', description: 'PRODUCTS.PRODUCT_3.DESCRIPTION', price: 40, imageUrl: 'assets/images/products/coffee.jpg' },
-    { name: 'PRODUCTS.PRODUCT_4.NAME', description: 'PRODUCTS.PRODUCT_4.DESCRIPTION', price: 50, imageUrl: 'assets/images/products/mami.jpg' },
-    { name: 'PRODUCTS.PRODUCT_5.NAME', description: 'PRODUCTS.PRODUCT_5.DESCRIPTION', price: 60, imageUrl: 'assets/images/products/happy-birthday.jpg' },
-    { name: 'PRODUCTS.PRODUCT_6.NAME', description: 'PRODUCTS.PRODUCT_6.DESCRIPTION', price: 70, imageUrl: 'assets/images/products/harry-potter.jpg' },
-    { name: 'PRODUCTS.PRODUCT_7.NAME', description: 'PRODUCTS.PRODUCT_7.DESCRIPTION', price: 80, imageUrl: 'assets/images/products/sherk.jpg' },
-    { name: 'PRODUCTS.PRODUCT_8.NAME', description: 'PRODUCTS.PRODUCT_8.DESCRIPTION', price: 90, imageUrl: 'assets/images/products/pinky.jpg' },
-    { name: 'PRODUCTS.PRODUCT_9.NAME', description: 'PRODUCTS.PRODUCT_9.DESCRIPTION', price: 100, imageUrl: 'assets/images/products/totoro.jpg' },
-    { name: 'PRODUCTS.PRODUCT_10.NAME', description: 'PRODUCTS.PRODUCT_10.DESCRIPTION', price: 110, imageUrl: 'assets/images/products/bolivia.jpg' },
-    { name: 'PRODUCTS.PRODUCT_11.NAME', description: 'PRODUCTS.PRODUCT_11.DESCRIPTION', price: 120, imageUrl: 'assets/images/products/panda.jpg' },
-    { name: 'PRODUCTS.PRODUCT_12.NAME', description: 'PRODUCTS.PRODUCT_12.DESCRIPTION', price: 230, imageUrl: 'assets/images/products/pandas.jpg' },
-    { name: 'PRODUCTS.PRODUCT_13.NAME', description: 'PRODUCTS.PRODUCT_13.DESCRIPTION', price: 130, imageUrl: 'assets/images/products/beer.jpg' },
-    { name: 'PRODUCTS.PRODUCT_14.NAME', description: 'PRODUCTS.PRODUCT_14.DESCRIPTION', price: 140, imageUrl: 'assets/images/products/coca-cola.jpg' },
-    { name: 'PRODUCTS.PRODUCT_15.NAME', description: 'PRODUCTS.PRODUCT_15.DESCRIPTION', price: 150, imageUrl: 'assets/images/products/one-piece.jpg' },
-    { name: 'PRODUCTS.PRODUCT_16.NAME', description: 'PRODUCTS.PRODUCT_16.DESCRIPTION', price: 160, imageUrl: 'assets/images/products/roblox.jpg' },
-    { name: 'PRODUCTS.PRODUCT_17.NAME', description: 'PRODUCTS.PRODUCT_17.DESCRIPTION', price: 170, imageUrl: 'assets/images/products/free-fire.jpg' },
-    { name: 'PRODUCTS.PRODUCT_18.NAME', description: 'PRODUCTS.PRODUCT_18.DESCRIPTION', price: 180, imageUrl: 'assets/images/products/real-madrid.jpg' },
-    { name: 'PRODUCTS.PRODUCT_19.NAME', description: 'PRODUCTS.PRODUCT_19.DESCRIPTION', price: 190, imageUrl: 'assets/images/products/barcelona.jpg' },
-    { name: 'PRODUCTS.PRODUCT_20.NAME', description: 'PRODUCTS.PRODUCT_20.DESCRIPTION', price: 200, imageUrl: 'assets/images/products/amazon.jpg' },
-    { name: 'PRODUCTS.PRODUCT_21.NAME', description: 'PRODUCTS.PRODUCT_21.DESCRIPTION', price: 210, imageUrl: 'assets/images/products/cat.jpg' },
-    { name: 'PRODUCTS.PRODUCT_22.NAME', description: 'PRODUCTS.PRODUCT_22.DESCRIPTION', price: 220, imageUrl: 'assets/images/products/dog.jpg' },
-    { name: 'PRODUCTS.PRODUCT_23.NAME', description: 'PRODUCTS.PRODUCT_23.DESCRIPTION', price: 240, imageUrl: 'assets/images/products/snowman.jpg' },
-    { name: 'PRODUCTS.PRODUCT_24.NAME', description: 'PRODUCTS.PRODUCT_24.DESCRIPTION', price: 250, imageUrl: 'assets/images/products/cat-face.jpg' },
-    { name: 'PRODUCTS.PRODUCT_25.NAME', description: 'PRODUCTS.PRODUCT_25.DESCRIPTION', price: 260, imageUrl: 'assets/images/products/bts-kawai.jpg' },
-    { name: 'PRODUCTS.PRODUCT_26.NAME', description: 'PRODUCTS.PRODUCT_26.DESCRIPTION', price: 270, imageUrl: 'assets/images/products/bts.jpg' },
-    { name: 'PRODUCTS.PRODUCT_27.NAME', description: 'PRODUCTS.PRODUCT_27.DESCRIPTION', price: 280, imageUrl: 'assets/images/products/the-simpsons.jpg' },
-    { name: 'PRODUCTS.PRODUCT_28.NAME', description: 'PRODUCTS.PRODUCT_28.DESCRIPTION', price: 290, imageUrl: 'assets/images/products/avengers.jpg' },
-    { name: 'PRODUCTS.PRODUCT_29.NAME', description: 'PRODUCTS.PRODUCT_29.DESCRIPTION', price: 300, imageUrl: 'assets/images/products/maestro.jpg' }
-  ];
+  products = PRODUCTS;
 }
+
