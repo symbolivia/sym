@@ -1,0 +1,251 @@
+@use "colors" as colors;
+
+// Modal overlay
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+}
+
+// Modal container
+.modal-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  width: 90%;
+  max-width: 900px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+// Modal content
+.modal-content {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+// Modal header
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: colors.$primary-color;
+  color: colors.$light-color;
+  
+  .product-title {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    color: colors.$light-color;
+    font-size: 1.8rem;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+    
+    &:hover {
+      color: #e6e6e6;
+    }
+  }
+}
+
+// Modal body
+.modal-body {
+  padding: 1.5rem;
+}
+
+// Product details container
+.product-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+// Product image container
+.product-image-container {
+  flex: 1;
+  min-width: 250px;
+  max-width: 400px;
+}
+
+// Product detail image
+.product-detail-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+// Product info container
+.product-info-container {
+  flex: 2;
+  min-width: 250px;
+}
+
+// Product description
+.product-description {
+  margin-bottom: 1.5rem;
+  
+  h3 {
+    color: colors.$primary-color;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+}
+
+// Product pricing
+.product-pricing {
+  margin-bottom: 1.5rem;
+  
+  h3 {
+    color: colors.$primary-color;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .product-price {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: colors.$secondary-color;
+    margin-bottom: 1rem;
+  }
+}
+
+// Product variants
+.product-variants {
+  margin-bottom: 1.5rem;
+  
+  h3 {
+    color: colors.$primary-color;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+}
+
+// Color options
+.color-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+// Color option
+.color-option {
+  padding: 0.5rem 1rem;
+  border: 1px solid colors.$border-color;
+  border-radius: 4px;
+  cursor: pointer;
+  
+  &.selected {
+    background-color: colors.$primary-color;
+    color: colors.$light-color;
+    border-color: colors.$primary-color;
+  }
+  
+  // Color variants
+  &[data-color="red"] {
+    background-color: lighten(red, 35%);
+    &.selected {
+      background-color: red;
+    }
+  }
+  
+  &[data-color="blue"] {
+    background-color: lighten(blue, 40%);
+    &.selected {
+      background-color: blue;
+    }
+  }
+  
+  &[data-color="black"] {
+    background-color: lighten(black, 70%);
+    &.selected {
+      background-color: black;
+    }
+  }
+}
+
+// Technical specifications
+.tech-specs {
+  background-color: colors.$light-color;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  
+  h3 {
+    color: colors.$primary-color;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+}
+
+// Specifications table
+.specs-table {
+  width: 100%;
+  border-collapse: collapse;
+  
+  tr {
+    &:not(:last-child) {
+      border-bottom: 1px solid colors.$border-color;
+    }
+  }
+  
+  td {
+    padding: 0.75rem 0;
+    
+    &:first-child {
+      width: 40%;
+      color: colors.$secondary-color;
+    }
+  }
+}
+
+// Modal footer
+.modal-footer {
+  padding: 1rem 1.5rem;
+  background-color: colors.$light-color;
+  border-top: 1px solid colors.$border-color;
+  display: flex;
+  justify-content: flex-end;
+}
+
+// Add to cart button
+.add-to-cart-btn {
+  background-color: colors.$info-color;
+  color: colors.$light-color;
+  border: none;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  
+  &:hover {
+    background-color: #148a9c; // Darker version of info-color
+  }
+}
+
+// Responsive styling
+@media (max-width: 768px) {
+  .product-details-container {
+    flex-direction: column;
+  }
+  
+  .product-image-container {
+    max-width: 100%;
+  }
+}

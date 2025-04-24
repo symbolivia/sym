@@ -31,6 +31,22 @@
   "FOOTER": {
     "DOWNLOAD_CATALOG": "Descargar Catálogo"
   },
+  "PRODUCT_CARD": {
+    "DETAILS": "Detalles"
+  },
+  "PRODUCT_DETAIL": {
+    "DESCRIPTION": "Descripción",
+    "PRICE": "Precio",
+    "QUANTITY": "Cantidad",
+    "COLOR": "Color de la taza",
+    "MODEL": "Modelo",
+    "SPECS": "Especificaciones Técnicas",
+    "DIMENSIONS": "Dimensiones",
+    "WEIGHT": "Peso",
+    "MATERIAL": "Material",
+    "CAPACITY": "Capacidad",
+    "CLOSE": "Cerrar"
+  },
   "PRODUCTS": {
     "PRODUCT_0": { "NAME": "Super Mario Bros", "SHORT_DESCRIPTION": "Diseño colorido de Mario", "DESCRIPTION": "Taza vibrante con los icónicos personajes de Super Mario Bros. Perfecta para entusiastas de los videojuegos y fans de Nintendo. El diseño colorido incluye a Mario, Luigi y elementos familiares del juego." },
     "PRODUCT_1": { "NAME": "Día del niño", "SHORT_DESCRIPTION": "Taza especial para celebración infantil", "DESCRIPTION": "Taza alegre diseñada para celebraciones del Día del Niño con colores vivaces y gráficos amigables para niños. Un gran regalo para los niños en su día especial." },

@@ -3,6 +3,15 @@
   <div class="product-info">
     <h2 class="product-name">{{ product.name | translate }}</h2>
     <p class="product-description">{{ product.shortDescription | translate }}</p>
-    <p class="product-price">{{ product.price }}Bs</p>
+    <div class="price-action-row">
+      <p class="product-price">{{ product.price }}Bs</p>
+      <button class="detail-button" (click)="openModal()">{{ 'PRODUCT_CARD.DETAILS' | translate }}</button>
+    </div>
   </div>
 </div>
+
+<app-product-card-detail 
+  [product]="product"
+  [isOpen]="isModalOpen"
+  (closeModal)="closeModal()">
+</app-product-card-detail>

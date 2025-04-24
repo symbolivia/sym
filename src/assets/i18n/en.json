@@ -31,6 +31,22 @@
   "FOOTER": {
     "DOWNLOAD_CATALOG": "Download Catalog"
   },
+  "PRODUCT_CARD": {
+    "DETAILS": "Details"
+  },
+  "PRODUCT_DETAIL": {
+    "DESCRIPTION": "Description",
+    "PRICE": "Price",
+    "QUANTITY": "Quantity",
+    "COLOR": "Color of the mug",
+    "MODEL": "Model",
+    "SPECS": "Technical Specifications",
+    "DIMENSIONS": "Dimensions",
+    "WEIGHT": "Weight",
+    "MATERIAL": "Material",
+    "CAPACITY": "Capacity",
+    "CLOSE": "Close"
+  },
   "PRODUCTS": {
     "PRODUCT_0": { "NAME": "Super Mario Bros", "SHORT_DESCRIPTION": "Colorful Mario design", "DESCRIPTION": "Vibrant mug featuring the iconic Super Mario Bros characters. Perfect for gaming enthusiasts and Nintendo fans. The colorful design includes Mario, Luigi, and familiar game elements." },
     "PRODUCT_1": { "NAME": "Kid's Day", "SHORT_DESCRIPTION": "Special kid's celebration mug", "DESCRIPTION": "Cheerful mug designed for Kid's Day celebrations with playful colors and child-friendly graphics. Great gift for children on their special day." },
