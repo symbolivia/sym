@@ -45,7 +45,19 @@
     "WEIGHT": "Weight",
     "MATERIAL": "Material",
     "CAPACITY": "Capacity",
-    "CLOSE": "Close"
+    "CLOSE": "Close",
+    "COLORS": {
+      "DEFAULT": "Default White",
+      "RED": "Red",
+      "BLUE": "Blue",
+      "BLACK": "Black"
+    },
+    "TECH_SPECS": {
+      "DIMENSIONS": "8.5 x 7.8 x 3.9 inches",
+      "WEIGHT": "330g",
+      "MATERIAL": "Ceramic",
+      "CAPACITY": "330ml"
+    }
   },
   "PRODUCTS": {
     "PRODUCT_0": { "NAME": "Super Mario Bros", "SHORT_DESCRIPTION": "Colorful Mario design", "DESCRIPTION": "Vibrant mug featuring the iconic Super Mario Bros characters. Perfect for gaming enthusiasts and Nintendo fans. The colorful design includes Mario, Luigi, and familiar game elements." },

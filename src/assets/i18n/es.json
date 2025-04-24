@@ -45,7 +45,19 @@
     "WEIGHT": "Peso",
     "MATERIAL": "Material",
     "CAPACITY": "Capacidad",
-    "CLOSE": "Cerrar"
+    "CLOSE": "Cerrar",
+    "COLORS": {
+      "DEFAULT": "Blanco Predeterminado",
+      "RED": "Rojo",
+      "BLUE": "Azul",
+      "BLACK": "Negro"
+    },
+    "TECH_SPECS": {
+      "DIMENSIONS": "8.5 x 7.8 x 3.9 pulgadas",
+      "WEIGHT": "330g",
+      "MATERIAL": "Cerámica",
+      "CAPACITY": "330ml"
+    }
   },
   "PRODUCTS": {
     "PRODUCT_0": { "NAME": "Super Mario Bros", "SHORT_DESCRIPTION": "Diseño colorido de Mario", "DESCRIPTION": "Taza vibrante con los icónicos personajes de Super Mario Bros. Perfecta para entusiastas de los videojuegos y fans de Nintendo. El diseño colorido incluye a Mario, Luigi y elementos familiares del juego." },

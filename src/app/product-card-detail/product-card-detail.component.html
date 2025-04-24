@@ -28,11 +28,9 @@
             <h3>{{ 'PRODUCT_DETAIL.COLOR' | translate }}</h3>
             <div class="color-options">
               <div *ngFor="let color of colorOptions" 
-                   [class.selected]="selectedColor === color.id"
-                   class="color-option"
+                   class="color-chip"
                    [attr.data-color]="color.id"
-                   (click)="selectedColor = color.id">
-                {{ color.name }}
+                   [title]="color.translationKey | translate">
               </div>
             </div>
           </div>
@@ -42,21 +40,9 @@
       <div class="tech-specs">
         <h3>{{ 'PRODUCT_DETAIL.SPECS' | translate }}</h3>
         <table class="specs-table">
-          <tr>
-            <td><strong>{{ 'PRODUCT_DETAIL.DIMENSIONS' | translate }}</strong></td>
-            <td>{{ technicalSpecs.dimensions }}</td>
-          </tr>
-          <tr>
-            <td><strong>{{ 'PRODUCT_DETAIL.WEIGHT' | translate }}</strong></td>
-            <td>{{ technicalSpecs.weight }}</td>
-          </tr>
-          <tr>
-            <td><strong>{{ 'PRODUCT_DETAIL.MATERIAL' | translate }}</strong></td>
-            <td>{{ technicalSpecs.material }}</td>
-          </tr>
-          <tr>
-            <td><strong>{{ 'PRODUCT_DETAIL.CAPACITY' | translate }}</strong></td>
-            <td>{{ technicalSpecs.capacity }}</td>
+          <tr *ngFor="let spec of techSpecsKeys">
+            <td><strong>{{ spec.labelKey | translate }}</strong></td>
+            <td>{{ spec.valueKey | translate }}</td>
           </tr>
         </table>
       </div>

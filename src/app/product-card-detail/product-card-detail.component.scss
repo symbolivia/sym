@@ -139,43 +139,48 @@
 .color-options {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
 }
 
-// Color option
-.color-option {
-  padding: 0.5rem 1rem;
-  border: 1px solid colors.$border-color;
-  border-radius: 4px;
-  cursor: pointer;
-  
-  &.selected {
-    background-color: colors.$primary-color;
-    color: colors.$light-color;
-    border-color: colors.$primary-color;
-  }
+// Color chips (circular)
+.color-chip {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 2px solid #ddd;
+  cursor: default;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   
   // Color variants
+  &[data-color="default"] {
+    background-color: #f0f0f0;
+    border-color: #ccc;
+  }
+  
   &[data-color="red"] {
-    background-color: lighten(red, 35%);
-    &.selected {
-      background-color: red;
-    }
+    background-color: #e74c3c;
+    border-color: #c0392b;
   }
   
   &[data-color="blue"] {
-    background-color: lighten(blue, 40%);
-    &.selected {
-      background-color: blue;
-    }
+    background-color: #3498db;
+    border-color: #2980b9;
   }
   
   &[data-color="black"] {
-    background-color: lighten(black, 70%);
-    &.selected {
-      background-color: black;
-    }
+    background-color: #333;
+    border-color: #000;
   }
+}
+
+// Color name display
+.color-name {
+  font-size: 0.9rem;
+  color: colors.$secondary-color;
+  margin-left: 0.5rem;
 }
 
 // Technical specifications
