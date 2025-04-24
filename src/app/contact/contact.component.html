@@ -4,7 +4,7 @@
     <div class="contact-container">
       <div>
         <div class="input-group">
-          <input formControlName="name" required type="text" name="firstName" autocomplete="off" class="input" />
+          <input formControlName="name" required type="text" name="firstName" placeholder="" autocomplete="off" class="input" />
           <label class="user-label">{{ "CONTACT_PAGE.NAME" | translate }}</label>
           <div *ngIf="
               contactForm.controls['name'].invalid &&
@@ -19,7 +19,7 @@
           </div>
         </div>
         <div class="input-group">
-          <input formControlName="lastName" required type="text" name="lastName" autocomplete="off" class="input" />
+          <input formControlName="lastName" required type="text" name="lastName" placeholder="" autocomplete="off" class="input" />
           <label class="user-label">
             {{ "CONTACT_PAGE.LAST_NAME" | translate }}
           </label>
@@ -36,11 +36,22 @@
           </div>
         </div>
         <div class="input-group">
-          <input formControlName="phone" type="text" name="phone" autocomplete="off" class="input" />
+          <input formControlName="phone" required type="tel" name="phone" placeholder="" autocomplete="off" class="input" pattern="\d*" />
           <label class="user-label">{{ "CONTACT_PAGE.PHONE" | translate }}</label>
+          <div *ngIf="
+              contactForm.controls['phone'].invalid &&
+              contactForm.controls['phone'].touched
+            ">
+            <small *ngIf="contactForm.controls['phone'].errors?.['required']" class="error-message">
+              {{ "CONTACT_PAGE.ERROR.PHONE_REQUIRED" | translate }}
+            </small>
+            <small *ngIf="contactForm.controls['phone'].errors?.['pattern']" class="error-message">
+              {{ "CONTACT_PAGE.ERROR.PHONE_INVALID" | translate }}
+            </small>
+          </div>
         </div>
         <div class="input-group">
-          <input formControlName="email" required type="text" name="email" autocomplete="off" class="input" />
+          <input formControlName="email" required type="text" name="email" placeholder="" autocomplete="off" class="input" />
           <label class="user-label">{{ "CONTACT_PAGE.EMAIL" | translate }}</label>
           <div *ngIf="
               contactForm.controls['email'].invalid &&

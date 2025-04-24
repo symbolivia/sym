@@ -8,7 +8,7 @@ import { ButtonComponent } from '../button/button.component';
   selector: 'app-contact',
   imports: [FormsModule, TranslateModule, ReactiveFormsModule, CommonModule, ButtonComponent],
   templateUrl: './contact.component.html',
-  styleUrl: './contact.component.scss',
+  styleUrls: ['./contact.component.scss'],
 })
 export class ContactComponent {
   contactForm: FormGroup;
@@ -17,7 +17,7 @@ export class ContactComponent {
     this.contactForm = this.fb.group({
       name: ['', [Validators.required, Validators.minLength(3)]],
       lastName: ['', [Validators.required, Validators.minLength(3)]],
-      phone: [''],
+      phone: ['', [Validators.required, Validators.pattern('\\d*')]],
       email: ['', [Validators.required, Validators.email]],
       comments: ['']
     });

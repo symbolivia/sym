@@ -8,18 +8,20 @@
     "TITLE": "Send us a message by WhatsApp",
     "NAME": "*Name",
     "LAST_NAME": "*Last Name",
-    "PHONE": "Phone",
+    "PHONE": "*Phone",
     "EMAIL": "*Email",
     "COMMENTS": "Comments",
     "SEND": "Send",
     "ERROR": {
       "NAME_REQUIRED": "Name is required",
       "LAST_NAME_REQUIRED": "Last Name is required",
+      "PHONE_REQUIRED": "Phone is required",
       "EMAIL_REQUIRED": "Email is required",
       "EMAIL_INVALID": "Email is invalid",
       "COMMENTS_REQUIRED": "Comments is required",
       "NAME_MIN_LENGTH": "Name must be at least 3 characters",
-      "LAST_NAME_MIN_LENGTH": "Last Name must be at least 3 characters"
+      "LAST_NAME_MIN_LENGTH": "Last Name must be at least 3 characters",
+      "PHONE_INVALID": "Phone number is invalid"
     }
   },
   "ABOUT_PAGE": {

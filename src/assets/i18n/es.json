@@ -8,7 +8,7 @@
     "TITLE": "Envianos un mensaje por WhatsApp",
     "NAME": "*Nombre",
     "LAST_NAME": "*Apellido",
-    "PHONE": "Telefono",
+    "PHONE": "*Telefono",
     "EMAIL": "*Correo electronico",
     "COMMENTS": "Comentarios",
     "SEND": "Enviar",
@@ -20,7 +20,8 @@
       "EMAIL_INVALID": "El correo electrónico no es válido",
       "COMMENTS_REQUIRED": "Los comentarios son requeridos",
       "NAME_MIN_LENGTH": "El nombre debe tener al menos 3 caracteres",
-      "LAST_NAME_MIN_LENGTH": "El apellido debe tener al menos 3 caracteres"
+      "LAST_NAME_MIN_LENGTH": "El apellido debe tener al menos 3 caracteres",
+      "PHONE_INVALID": "El número de teléfono no es válido"
     }
   },
   "ABOUT_PAGE": {

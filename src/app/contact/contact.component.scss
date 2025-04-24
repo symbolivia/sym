@@ -66,7 +66,8 @@
   }
 
   &:focus ~ .user-label,
-  &:valid ~ .user-label {
+  &:valid ~ .user-label,
+  &:not(:placeholder-shown) ~ .user-label {
     transform: translateY(-50%) scale(0.8);
     background-color: colors.$light-color;
     padding: 0 0.2em;
@@ -76,6 +77,10 @@
   &.ng-invalid.ng-touched {
     border: 1.5px solid colors.$danger-color !important;
     box-shadow: 0px 0px 5px rgba(255, 0, 0, 0.5);
+  }
+
+  &.ng-invalid.ng-touched ~ .user-label {
+    color: colors.$danger-color 
   }
 }
 
