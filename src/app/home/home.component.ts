@@ -4,15 +4,15 @@ import { PRODUCTS } from '../products/products.data';
 import { CommonModule } from '@angular/common';
 import { TranslateModule } from '@ngx-translate/core';
 import { FeaturedProductsComponent } from '../featured-products/featured-products.component';
+import { ScrollToTopComponent } from '../scroll-to-top/scroll-to-top.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CarouselComponent, CommonModule, TranslateModule, FeaturedProductsComponent],
+  imports: [CarouselComponent, CommonModule, TranslateModule, FeaturedProductsComponent, ScrollToTopComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-  // Get a subset of featured products to display on home page (first 6 products)
-  featuredProducts = PRODUCTS.slice(0, 6);
+  featuredProducts = PRODUCTS.slice(0, 5);
 }
