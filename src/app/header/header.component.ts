@@ -9,5 +9,10 @@ import { RouterModule } from '@angular/router';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-
+  closeSidebar() {
+    const checkbox = document.getElementById('sidebar-active') as HTMLInputElement;
+    if (checkbox) {
+      checkbox.checked = false;
+    }
+  }
 }
