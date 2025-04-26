@@ -5,16 +5,16 @@
     <label id="overlay" for="sidebar-active"></label>
     <div class="links-container">
       <label for="sidebar-active" class="close-sidebar-button"></label>
-      <a class="home-link" href="#">
+      <a class="home-link" [routerLink]="['/']">
         <img
           src="assets/images/sym-logo-only.jpeg"
           alt="Home Icon"
           style="width: 100px; vertical-align: middle"
         />
       </a>
-      <a href="/about">{{ "NAVBAR.ABOUT" | translate }}</a>
-      <a href="/products">{{ "NAVBAR.PRODUCTS" | translate }}</a>
-      <a href="/contact">{{ "NAVBAR.CONTACT" | translate }}</a>
+      <a [routerLink]="['/about']">{{ "NAVBAR.ABOUT" | translate }}</a>
+      <a [routerLink]="['/products']">{{ "NAVBAR.PRODUCTS" | translate }}</a>
+      <a [routerLink]="['/contact']">{{ "NAVBAR.CONTACT" | translate }}</a>
     </div>
   </nav>
 </div>
