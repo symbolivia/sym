@@ -8,19 +8,24 @@ nav {
   height: 60px;
   background-color: colors.$dark-color;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   border-radius: 0 0 8px 8px;
   overflow: hidden;
   padding: 0 15px;
+  position: relative;
 }
 
 .links-container {
   height: 100%;
-  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: 100px; /* Offset for the logo */
+  margin-right: 60px; /* Offset for the menu button on mobile */
 }
 
 nav a {
@@ -85,10 +90,13 @@ nav .home-link {
   .links-container{
     flex-direction: column;
     align-items: flex-start;
-
+    justify-content: flex-start;
+    
     position: fixed;
     top: 0;
     right: -100%;
+    left: auto; /* Reset absolute positioning for mobile */
+    margin: 0; /* Reset margins for mobile */
     z-index: 10;
     width: 300px;
 
