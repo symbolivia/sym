@@ -1,0 +1,97 @@
+{
+  "HOME": {
+    "FEATURED_PRODUCTS": "Featured Products"
+  },
+  "NAVBAR": {
+    "ABOUT": "About",
+    "PRODUCTS": "Products",
+    "CONTACT": "Contact"
+  },
+  "CONTACT_PAGE": {
+    "TITLE": "Send us a message by WhatsApp",
+    "NAME": "*Name",
+    "LAST_NAME": "*Last Name",
+    "PHONE": "*Phone",
+    "EMAIL": "*Email",
+    "COMMENTS": "Comments",
+    "SEND": "Send",
+    "ERROR": {
+      "NAME_REQUIRED": "Name is required",
+      "LAST_NAME_REQUIRED": "Last Name is required",
+      "PHONE_REQUIRED": "Phone is required",
+      "EMAIL_REQUIRED": "Email is required",
+      "EMAIL_INVALID": "Email is invalid",
+      "COMMENTS_REQUIRED": "Comments is required",
+      "NAME_MIN_LENGTH": "Name must be at least 3 characters",
+      "LAST_NAME_MIN_LENGTH": "Last Name must be at least 3 characters",
+      "PHONE_INVALID": "Phone number is invalid"
+    }
+  },
+  "ABOUT_PAGE": {
+    "TITLE": "About Us",
+    "CONTENT": "SYM is a Bolivian company specializing in the sublimation of mugs, caps, t-shirts, and other personalized items, offering high-quality products with exclusive designs for companies, events, and personal use. We have state-of-the-art printing technology to ensure sharp and durable finishes. Our main headquarters is located in the city of Cochabamba, from where we operate to provide efficient and quality service. We ship to all departments of Bolivia and offer home deliveries for the convenience of our customers. We focus on customer satisfaction, ensuring personalized attention and compliance with delivery times. Our commitment is to offer innovative products, ideal for gifts, advertising campaigns, and promotional items, turning each design into a unique and memorable expression.<br><br>📲 Follow us on our social media to know our news, promotions, and new designs:"
+  },
+  "FOOTER": {
+    "DOWNLOAD_CATALOG": "Download Catalog"
+  },
+  "PRODUCT_CARD": {
+    "DETAILS": "Details"
+  },
+  "PRODUCT_DETAIL": {
+    "DESCRIPTION": "Description",
+    "PRICE": "Price",
+    "QUANTITY": "Quantity",
+    "COLOR": "Color of the mug",
+    "MODEL": "Model",
+    "SPECS": "Technical Specifications",
+    "DIMENSIONS": "Dimensions",
+    "WEIGHT": "Weight",
+    "MATERIAL": "Material",
+    "CAPACITY": "Capacity",
+    "CLOSE": "Close",
+    "COLORS": {
+      "DEFAULT": "Default White",
+      "RED": "Red",
+      "BLUE": "Blue",
+      "BLACK": "Black"
+    },
+    "TECH_SPECS": {
+      "DIMENSIONS": "8.5 x 7.8 x 3.9 inches",
+      "WEIGHT": "330g",
+      "MATERIAL": "Ceramic",
+      "CAPACITY": "330ml"
+    }
+  },
+  "PRODUCTS": {
+    "PRODUCT_0": { "NAME": "Super Mario Bros", "SHORT_DESCRIPTION": "Colorful Mario design", "DESCRIPTION": "Vibrant mug featuring the iconic Super Mario Bros characters. Perfect for gaming enthusiasts and Nintendo fans. The colorful design includes Mario, Luigi, and familiar game elements." },
+    "PRODUCT_1": { "NAME": "Kid's Day", "SHORT_DESCRIPTION": "Special kid's celebration mug", "DESCRIPTION": "Cheerful mug designed for Kid's Day celebrations with playful colors and child-friendly graphics. Great gift for children on their special day." },
+    "PRODUCT_2": { "NAME": "Penguin", "SHORT_DESCRIPTION": "Cute penguin design", "DESCRIPTION": "Adorable penguin-themed mug featuring a cute cartoon penguin in a winter setting. Perfect for animal lovers and winter season." },
+    "PRODUCT_3": { "NAME": "Coffee", "SHORT_DESCRIPTION": "Coffee lover's mug", "DESCRIPTION": "Stylish mug for coffee enthusiasts with elegant coffee-themed graphics and quotes. Ideal for those who appreciate their daily caffeine fix." },
+    "PRODUCT_4": { "NAME": "Happy Mother's Day", "SHORT_DESCRIPTION": "Mother's Day celebration mug", "DESCRIPTION": "Special mug designed to celebrate mothers with heartfelt messages and floral designs. A meaningful gift for Mother's Day." },
+    "PRODUCT_5": { "NAME": "Happy Birthday", "SHORT_DESCRIPTION": "Birthday celebration mug", "DESCRIPTION": "Festive birthday-themed mug with colorful celebration graphics and 'Happy Birthday' message. Perfect for birthday gifts and celebrations." },
+    "PRODUCT_6": { "NAME": "Harry Potter", "SHORT_DESCRIPTION": "Wizarding world design", "DESCRIPTION": "Magical mug featuring Harry Potter themed graphics and symbols from the wizarding world. A must-have for Harry Potter fans and collectors." },
+    "PRODUCT_7": { "NAME": "Shrek", "SHORT_DESCRIPTION": "Shrek character mug", "DESCRIPTION": "Fun mug featuring Shrek and other characters from the beloved animated movie. Great for fans of all ages." },
+    "PRODUCT_8": { "NAME": "Pinky", "SHORT_DESCRIPTION": "Pink themed design", "DESCRIPTION": "Vibrant pink-themed mug with playful designs. Adds a pop of color to your drinkware collection." },
+    "PRODUCT_9": { "NAME": "Totoro", "SHORT_DESCRIPTION": "Studio Ghibli character", "DESCRIPTION": "Charming mug featuring Totoro from the beloved Studio Ghibli film. Perfect for anime fans and collectors." },
+    "PRODUCT_10": { "NAME": "Bolivia", "SHORT_DESCRIPTION": "Bolivian national design", "DESCRIPTION": "Patriotic mug featuring Bolivian national symbols, colors, and landmarks. Celebrates the beauty and culture of Bolivia." },
+    "PRODUCT_11": { "NAME": "Panda", "SHORT_DESCRIPTION": "Single panda design", "DESCRIPTION": "Cute mug featuring a single panda in a playful pose. Perfect for panda lovers and animal enthusiasts." },
+    "PRODUCT_12": { "NAME": "Pandas", "SHORT_DESCRIPTION": "Multiple pandas design", "DESCRIPTION": "Adorable mug featuring multiple pandas in various playful poses. A delightful addition for panda enthusiasts." },
+    "PRODUCT_13": { "NAME": "Beer", "SHORT_DESCRIPTION": "Beer themed mug", "DESCRIPTION": "Beer-themed mug with graphics celebrating the popular beverage. Great for beer enthusiasts and casual drinking." },
+    "PRODUCT_14": { "NAME": "Coca Cola", "SHORT_DESCRIPTION": "Classic Coca Cola design", "DESCRIPTION": "Classic mug featuring the iconic Coca Cola branding and colors. Perfect for fans of the beloved beverage." },
+    "PRODUCT_15": { "NAME": "One Piece", "SHORT_DESCRIPTION": "Anime character design", "DESCRIPTION": "Vibrant mug featuring characters from the popular One Piece anime series. A must-have for anime enthusiasts and collectors." },
+    "PRODUCT_16": { "NAME": "Roblox", "SHORT_DESCRIPTION": "Gaming platform design", "DESCRIPTION": "Fun mug featuring Roblox characters and elements from the popular gaming platform. Perfect for gamers of all ages." },
+    "PRODUCT_17": { "NAME": "Free Fire", "SHORT_DESCRIPTION": "Battle royale game design", "DESCRIPTION": "Action-packed mug featuring graphics from the popular Free Fire battle royale game. Ideal for gaming enthusiasts." },
+    "PRODUCT_18": { "NAME": "Real Madrid", "SHORT_DESCRIPTION": "Football club design", "DESCRIPTION": "Official Real Madrid themed mug featuring the club's logo and colors. Perfect for dedicated football fans and supporters." },
+    "PRODUCT_19": { "NAME": "Barcelona", "SHORT_DESCRIPTION": "FC Barcelona design", "DESCRIPTION": "FC Barcelona themed mug with the club's iconic colors and symbols. A great gift for Barcelona supporters." },
+    "PRODUCT_20": { "NAME": "Amazon", "SHORT_DESCRIPTION": "Amazon rainforest theme", "DESCRIPTION": "Beautiful mug featuring Amazon rainforest imagery and wildlife. Celebrates the natural beauty of one of the world's most important ecosystems." },
+    "PRODUCT_21": { "NAME": "Cat", "SHORT_DESCRIPTION": "Cat lover's design", "DESCRIPTION": "Charming mug featuring adorable cat illustrations. Perfect for cat lovers and pet enthusiasts." },
+    "PRODUCT_22": { "NAME": "Dog", "SHORT_DESCRIPTION": "Dog lover's design", "DESCRIPTION": "Heartwarming mug with cute dog illustrations. Ideal gift for dog owners and animal lovers." },
+    "PRODUCT_23": { "NAME": "Snowman", "SHORT_DESCRIPTION": "Winter holiday design", "DESCRIPTION": "Festive mug featuring cheerful snowman imagery. Perfect for winter holidays and seasonal celebrations." },
+    "PRODUCT_24": { "NAME": "Cat Face", "SHORT_DESCRIPTION": "Cute cat face design", "DESCRIPTION": "Playful mug featuring an adorable cat face design. A fun addition to any cat lover's collection." },
+    "PRODUCT_25": { "NAME": "BTS Kawaii", "SHORT_DESCRIPTION": "Cute K-pop themed design", "DESCRIPTION": "Adorable kawaii-style mug featuring BTS-inspired graphics. Perfect for K-pop fans who appreciate cute aesthetics." },
+    "PRODUCT_26": { "NAME": "BTS", "SHORT_DESCRIPTION": "K-pop band design", "DESCRIPTION": "Stylish mug featuring BTS imagery and symbols. A must-have for fans of the globally popular K-pop group." },
+    "PRODUCT_27": { "NAME": "The Simpsons", "SHORT_DESCRIPTION": "Classic cartoon design", "DESCRIPTION": "Fun mug featuring characters from the beloved animated series The Simpsons. Great for fans of the long-running show." },
+    "PRODUCT_28": { "NAME": "Avengers", "SHORT_DESCRIPTION": "Superhero team design", "DESCRIPTION": "Action-packed mug featuring Marvel's Avengers characters. Perfect for superhero fans and comic book enthusiasts." },
+    "PRODUCT_29": { "NAME": "Teacher", "SHORT_DESCRIPTION": "Appreciation for educators", "DESCRIPTION": "Thoughtful mug designed to show appreciation for teachers with inspirational messages and education-themed graphics. Perfect gift for educators." }
+  }
+}

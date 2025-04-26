@@ -1,0 +1,97 @@
+{
+  "HOME": {
+    "FEATURED_PRODUCTS": "Productos Destacados"
+  },
+  "NAVBAR": {
+    "ABOUT": "Acerca de nosotros",
+    "PRODUCTS": "Nuestros productos",
+    "CONTACT": "Contactanos"
+  },
+  "CONTACT_PAGE": {
+    "TITLE": "Envianos un mensaje por WhatsApp",
+    "NAME": "*Nombre",
+    "LAST_NAME": "*Apellido",
+    "PHONE": "*Telefono",
+    "EMAIL": "*Correo electronico",
+    "COMMENTS": "Comentarios",
+    "SEND": "Enviar",
+    "ERROR": {
+      "NAME_REQUIRED": "El nombre es requerido",
+      "LAST_NAME_REQUIRED": "El apellido es requerido",
+      "PHONE_REQUIRED": "El teléfono es requerido",
+      "EMAIL_REQUIRED": "El correo electrónico es requerido",
+      "EMAIL_INVALID": "El correo electrónico no es válido",
+      "COMMENTS_REQUIRED": "Los comentarios son requeridos",
+      "NAME_MIN_LENGTH": "El nombre debe tener al menos 3 caracteres",
+      "LAST_NAME_MIN_LENGTH": "El apellido debe tener al menos 3 caracteres",
+      "PHONE_INVALID": "El número de teléfono no es válido"
+    }
+  },
+  "ABOUT_PAGE": {
+    "TITLE": "Acerca de nosotros",
+    "CONTENT": "SYM es una empresa boliviana especializada en la sublimación de tazas, gorras, poleras y otros artículos personalizados, ofreciendo productos de alta calidad con diseños exclusivos para empresas, eventos y uso personal. Contamos con tecnología de impresión de última generación para garantizar acabados nítidos y duraderos. Nuestra sede principal se encuentra en la ciudad de Cochabamba, desde donde operamos para brindar un servicio eficiente y de calidad. Realizamos envíos a todos los departamentos de Bolivia y ofrecemos entregas a domicilio para mayor comodidad de nuestros clientes. Nos enfocamos en la satisfacción del cliente, asegurando atención personalizada y cumplimiento en los tiempos de entrega. Nuestro compromiso es ofrecer productos innovadores, ideales para regalos, campañas publicitarias y artículos promocionales, convirtiendo cada diseño en una expresión única y memorable.<br><br> Síguenos en nuestras redes sociales para conocer nuestras novedades, promociones y nuevos diseños:"
+  },
+  "FOOTER": {
+    "DOWNLOAD_CATALOG": "Descargar Catálogo"
+  },
+  "PRODUCT_CARD": {
+    "DETAILS": "Detalles"
+  },
+  "PRODUCT_DETAIL": {
+    "DESCRIPTION": "Descripción",
+    "PRICE": "Precio",
+    "QUANTITY": "Cantidad",
+    "COLOR": "Color de la taza",
+    "MODEL": "Modelo",
+    "SPECS": "Especificaciones Técnicas",
+    "DIMENSIONS": "Dimensiones",
+    "WEIGHT": "Peso",
+    "MATERIAL": "Material",
+    "CAPACITY": "Capacidad",
+    "CLOSE": "Cerrar",
+    "COLORS": {
+      "DEFAULT": "Blanco Predeterminado",
+      "RED": "Rojo",
+      "BLUE": "Azul",
+      "BLACK": "Negro"
+    },
+    "TECH_SPECS": {
+      "DIMENSIONS": "8.5 x 7.8 x 3.9 pulgadas",
+      "WEIGHT": "330g",
+      "MATERIAL": "Cerámica",
+      "CAPACITY": "330ml"
+    }
+  },
+  "PRODUCTS": {
+    "PRODUCT_0": { "NAME": "Super Mario Bros", "SHORT_DESCRIPTION": "Diseño colorido de Mario", "DESCRIPTION": "Taza vibrante con los icónicos personajes de Super Mario Bros. Perfecta para entusiastas de los videojuegos y fans de Nintendo. El diseño colorido incluye a Mario, Luigi y elementos familiares del juego." },
+    "PRODUCT_1": { "NAME": "Día del niño", "SHORT_DESCRIPTION": "Taza especial para celebración infantil", "DESCRIPTION": "Taza alegre diseñada para celebraciones del Día del Niño con colores vivaces y gráficos amigables para niños. Un gran regalo para los niños en su día especial." },
+    "PRODUCT_2": { "NAME": "Pingüino", "SHORT_DESCRIPTION": "Diseño de pingüino adorable", "DESCRIPTION": "Taza temática de pingüino con un adorable pingüino de dibujos animados en un entorno invernal. Perfecta para amantes de los animales y la temporada de invierno." },
+    "PRODUCT_3": { "NAME": "Café", "SHORT_DESCRIPTION": "Taza para amantes del café", "DESCRIPTION": "Taza elegante para entusiastas del café con gráficos y frases elegantes relacionadas con el café. Ideal para aquellos que aprecian su dosis diaria de cafeína." },
+    "PRODUCT_4": { "NAME": "Feliz día mamá", "SHORT_DESCRIPTION": "Taza para celebrar el día de la madre", "DESCRIPTION": "Taza especial diseñada para celebrar a las madres con mensajes sentidos y diseños florales. Un regalo significativo para el Día de la Madre." },
+    "PRODUCT_5": { "NAME": "Feliz cumpleaños", "SHORT_DESCRIPTION": "Taza para celebración de cumpleaños", "DESCRIPTION": "Taza festiva con temática de cumpleaños con gráficos coloridos de celebración y mensaje de 'Feliz Cumpleaños'. Perfecta para regalos y celebraciones de cumpleaños." },
+    "PRODUCT_6": { "NAME": "Harry Potter", "SHORT_DESCRIPTION": "Diseño del mundo mágico", "DESCRIPTION": "Taza mágica con gráficos temáticos de Harry Potter y símbolos del mundo mágico. Imprescindible para fans y coleccionistas de Harry Potter." },
+    "PRODUCT_7": { "NAME": "Shrek", "SHORT_DESCRIPTION": "Taza con personajes de Shrek", "DESCRIPTION": "Divertida taza con Shrek y otros personajes de la querida película animada. Genial para fans de todas las edades." },
+    "PRODUCT_8": { "NAME": "Pinky", "SHORT_DESCRIPTION": "Diseño temático rosa", "DESCRIPTION": "Taza vibrante con temática rosa y diseños juguetones. Añade un toque de color a tu colección de vajilla." },
+    "PRODUCT_9": { "NAME": "Totoro", "SHORT_DESCRIPTION": "Personaje de Studio Ghibli", "DESCRIPTION": "Encantadora taza con Totoro de la querida película de Studio Ghibli. Perfecta para fans del anime y coleccionistas." },
+    "PRODUCT_10": { "NAME": "Bolivia", "SHORT_DESCRIPTION": "Diseño nacional boliviano", "DESCRIPTION": "Taza patriótica con símbolos nacionales bolivianos, colores y monumentos. Celebra la belleza y cultura de Bolivia." },
+    "PRODUCT_11": { "NAME": "Panda", "SHORT_DESCRIPTION": "Diseño de un solo panda", "DESCRIPTION": "Linda taza con un solo panda en una pose juguetona. Perfecta para amantes de los pandas y entusiastas de los animales." },
+    "PRODUCT_12": { "NAME": "Pandas", "SHORT_DESCRIPTION": "Diseño con múltiples pandas", "DESCRIPTION": "Adorable taza con múltiples pandas en varias poses juguetonas. Una adición encantadora para entusiastas de los pandas." },
+    "PRODUCT_13": { "NAME": "Cerveza", "SHORT_DESCRIPTION": "Taza temática de cerveza", "DESCRIPTION": "Taza con temática de cerveza y gráficos que celebran esta popular bebida. Genial para entusiastas de la cerveza y bebedores casuales." },
+    "PRODUCT_14": { "NAME": "Coca Cola", "SHORT_DESCRIPTION": "Diseño clásico de Coca Cola", "DESCRIPTION": "Taza clásica con la icónica marca y colores de Coca Cola. Perfecta para fans de esta querida bebida." },
+    "PRODUCT_15": { "NAME": "One Piece", "SHORT_DESCRIPTION": "Diseño de personajes de anime", "DESCRIPTION": "Taza vibrante con personajes de la popular serie de anime One Piece. Imprescindible para entusiastas y coleccionistas de anime." },
+    "PRODUCT_16": { "NAME": "Roblox", "SHORT_DESCRIPTION": "Diseño de plataforma de juegos", "DESCRIPTION": "Divertida taza con personajes de Roblox y elementos de la popular plataforma de juegos. Perfecta para jugadores de todas las edades." },
+    "PRODUCT_17": { "NAME": "Free Fire", "SHORT_DESCRIPTION": "Diseño de juego battle royale", "DESCRIPTION": "Taza llena de acción con gráficos del popular juego Free Fire battle royale. Ideal para entusiastas de los videojuegos." },
+    "PRODUCT_18": { "NAME": "Real Madrid", "SHORT_DESCRIPTION": "Diseño de club de fútbol", "DESCRIPTION": "Taza temática oficial del Real Madrid con el logo y colores del club. Perfecta para aficionados dedicados y seguidores del fútbol." },
+    "PRODUCT_19": { "NAME": "Barcelona", "SHORT_DESCRIPTION": "Diseño del FC Barcelona", "DESCRIPTION": "Taza temática del FC Barcelona con los icónicos colores y símbolos del club. Un gran regalo para los seguidores del Barcelona." },
+    "PRODUCT_20": { "NAME": "Amazon", "SHORT_DESCRIPTION": "Tema de la selva amazónica", "DESCRIPTION": "Hermosa taza con imágenes de la selva amazónica y su vida silvestre. Celebra la belleza natural de uno de los ecosistemas más importantes del mundo." },
+    "PRODUCT_21": { "NAME": "Gato", "SHORT_DESCRIPTION": "Diseño para amantes de los gatos", "DESCRIPTION": "Encantadora taza con adorables ilustraciones de gatos. Perfecta para amantes de los gatos y entusiastas de las mascotas." },
+    "PRODUCT_22": { "NAME": "Perro", "SHORT_DESCRIPTION": "Diseño para amantes de los perros", "DESCRIPTION": "Conmovedora taza con lindas ilustraciones de perros. Regalo ideal para dueños de perros y amantes de los animales." },
+    "PRODUCT_23": { "NAME": "Hombre de nieve", "SHORT_DESCRIPTION": "Diseño para festividades invernales", "DESCRIPTION": "Taza festiva con alegres imágenes de muñecos de nieve. Perfecta para las festividades invernales y celebraciones de temporada." },
+    "PRODUCT_24": { "NAME": "Cara de gato", "SHORT_DESCRIPTION": "Diseño de cara de gato adorable", "DESCRIPTION": "Taza juguetona con un adorable diseño de cara de gato. Una divertida adición a cualquier colección de amantes de los gatos." },
+    "PRODUCT_25": { "NAME": "BTS kawaii", "SHORT_DESCRIPTION": "Diseño K-pop estilo kawaii", "DESCRIPTION": "Adorable taza estilo kawaii con gráficos inspirados en BTS. Perfecta para fans del K-pop que aprecian la estética kawaii." },
+    "PRODUCT_26": { "NAME": "BTS", "SHORT_DESCRIPTION": "Diseño de banda K-pop", "DESCRIPTION": "Elegante taza con imágenes y símbolos de BTS. Imprescindible para fans del grupo de K-pop mundialmente popular." },
+    "PRODUCT_27": { "NAME": "Los Simpsons", "SHORT_DESCRIPTION": "Diseño de caricatura clásica", "DESCRIPTION": "Divertida taza con personajes de la querida serie animada Los Simpsons. Genial para fans de este programa de larga duración." },
+    "PRODUCT_28": { "NAME": "Los Vengadores", "SHORT_DESCRIPTION": "Diseño de equipo de superhéroes", "DESCRIPTION": "Taza llena de acción con personajes de Los Vengadores de Marvel. Perfecta para fans de superhéroes y entusiastas de cómics." },
+    "PRODUCT_29": { "NAME": "Maestro", "SHORT_DESCRIPTION": "Aprecio para educadores", "DESCRIPTION": "Taza considerada diseñada para mostrar aprecio a los maestros con mensajes inspiradores y gráficos relacionados con la educación. Regalo perfecto para educadores." }
+  }
+}
