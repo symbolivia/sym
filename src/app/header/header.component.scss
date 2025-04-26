@@ -44,9 +44,8 @@ nav a {
 
     &:hover {
       color: colors.$secondary-color;
-      background-color: #F2F2F2;
-      transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
-
+      background-color: colors.$light-blue-color;
+      transition: background-color 0.7s ease-in-out, color 0.7s ease-in-out;
       &::after {
         width: 60%;
       }
@@ -54,15 +53,15 @@ nav a {
   }
 }
 
-
-// nav a:hover {
-//   color: colors.$secondary-color;
-//   background-color: colors.$light-color;
-//   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
-// }
-
 nav .home-link {
   margin-right: auto;
+}
+
+.header-logo {
+  height: 40px;
+  max-width: 200px;
+  object-fit: contain;
+  vertical-align: middle;
 }
 
 #sidebar-active {
